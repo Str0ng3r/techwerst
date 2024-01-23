@@ -384,7 +384,9 @@ export const Header = () => {
             </div>
             <div className={styles.mainsect_costumers_list}>
               <ul className={styles.mainsect_column_list_name}>
-                <li className={styles.mainsect_name_section}><span className={styles.mainsect_name_section}>Customer&nbsp;Name</span></li>
+                <li className={styles.mainsect_name_firstpoint}>
+                  Customer&nbsp;Name
+                </li>
                 <li>Jane Cooper</li>
                 <li>Floyd Miles</li>
                 <li>Ronald Richards</li>
@@ -395,7 +397,7 @@ export const Header = () => {
                 <li>Kristin Watson</li>
               </ul>
               <ul className={styles.mainsect_column_list_company}>
-                <li className={styles.mainsect_name_section}><span className={styles.mainsect_name_section}>Company</span></li>
+                <li className={styles.mainsect_company_firstpoint}>Company</li>
                 <li>Microsoft</li>
                 <li>Yahoo</li>
                 <li>Adobe</li>
@@ -406,7 +408,9 @@ export const Header = () => {
                 <li>Facebook</li>
               </ul>
               <ul className={styles.mainsect_column_list_number}>
-                <li className={styles.mainsect_name_section}><span className={styles.mainsect_name_section}>Phone&nbsp;Number</span></li>
+                <li className={styles.mainsect_number_firstpoint}>
+                  Phone&nbsp;Number
+                </li>
                 <li>(225) 555-0118</li>
                 <li>(205) 555-0100</li>
                 <li>(302) 555-0107</li>
@@ -417,7 +421,7 @@ export const Header = () => {
                 <li>(704) 555-0127</li>
               </ul>
               <ul className={styles.mainsect_column_list_email}>
-                <li className={styles.mainsect_name_section}><span className={styles.mainsect_name_section}>Email</span></li>
+                <li className={styles.mainsect_email_firstpoint}>Email</li>
                 <li>jane@microsoft.com</li>
                 <li>floyd@yahoo.com</li>
                 <li>ronald@adobe.com</li>
@@ -428,7 +432,7 @@ export const Header = () => {
                 <li>kristin@facebook.com</li>
               </ul>
               <ul className={styles.mainsect_column_list_country}>
-                <li><span className={styles.mainsect_name_section}>Country</span></li>
+                <li className={styles.mainsect_country_firstpoint}>Country</li>
                 <li>United States</li>
                 <li>Kiribati</li>
                 <li>Israel</li>
@@ -439,16 +443,33 @@ export const Header = () => {
                 <li>Åland Islands</li>
               </ul>
               <ul className={styles.mainsect_column_list_status}>
-                <li><span className={styles.mainsect_name_section}>Status</span></li>
-                <li>Active</li>
-                <li>Inactive</li>
-                <li>Inactive</li>
-                <li>Active</li>
-                <li>Active</li>
-                <li>Active</li>
-                <li>Active</li>
-                <li>Inactive</li>
+                <li className={styles.mainsect_status_firstpoint}>Status</li>
+                <li className={styles.mainsect_active_button}>Active</li>
+                <li className={styles.mainsect_inactive_button}>Inactive</li>
+                <li className={styles.mainsect_inactive_button}>Inactive</li>
+                <li className={styles.mainsect_active_button}>Active</li>
+                <li className={styles.mainsect_active_button}>Active</li>
+                <li className={styles.mainsect_active_button}>Active</li>
+                <li className={styles.mainsect_active_button}>Active</li>
+                <li className={styles.mainsect_inactive_button}>Inactive</li>
               </ul>
+            </div>
+            <div className={styles.mainsect_table_navigation}>
+              <h2 className={styles.mainsect_info_page}>Showing data 1 to 8 of  256K entries</h2>
+              <ul className={styles.mainsect_list_navigation_buttons}>
+                <li><button className={styles.mainsect_button_navigation}>
+                {"<"}
+              </button></li>
+                <li><button className={styles.mainsect_button_navigation}>1</button></li>
+                <li><button className={styles.mainsect_button_navigation}>2</button></li>
+                <li><button className={styles.mainsect_button_navigation}>3</button></li>
+                <li><button className={styles.mainsect_button_navigation}>4</button></li>
+                <li><button className={styles.mainsect_button_navigation_more}>...</button></li>
+                <li><button className={styles.mainsect_button_navigation}>40</button></li>
+                <li><button className={styles.mainsect_button_navigation}>
+                {">"}
+              </button></li>
+              </ul>          
             </div>
           </div>
         </div>

@@ -7,9 +7,28 @@
   margin: 0 auto;
   height: 100%;
 }
+li {
+  list-style-type: none;
+}
 ul {
     padding: 0;
     margin: 0;
+}
+h5 {
+  margin: 0;
+}
+h4 {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
 }
 header {
   height: 100%;
@@ -200,8 +219,13 @@ header {
 .mainsect_table {
   padding-top: 30px;
   padding-left: 38px;
+  padding-right: 44px;
   min-width: 968px;
   box-sizing: border-box;
+  background-color: #FFF;
+  filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.50));
+  border-radius: 30px;
+  position: relative;
 }
 .mainsect_label {
   margin-right: 53px;
@@ -257,7 +281,9 @@ list-style-type: none;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.14px;
+    white-space: nowrap;
     text-align: left;
+    margin-bottom: 48px;
 }
 .mainsect_column_list_company li{
     color: #292D32;
@@ -269,7 +295,23 @@ list-style-type: none;
     line-height: normal;
     letter-spacing: -0.14px;
     text-align: left;
-}
+    white-space: nowrap;
+    margin-bottom: 48px;
+} 
+.mainsect_column_list_company li:nth-child(1){
+  color: #B5B7C0;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  text-align: left;
+  margin-right: 61px;
+  list-style-type:none ;
+  margin-bottom: 38px;
+} 
 .mainsect_column_list_number li{
     color: #292D32;
 list-style-type: none;
@@ -281,6 +323,21 @@ list-style-type: none;
     letter-spacing: -0.14px;
     text-align: left;
     white-space: nowrap;
+    margin-bottom: 48px;
+}
+.mainsect_column_list_number li:nth-child(1){
+  color: #B5B7C0;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  text-align: left;
+  list-style-type:none ;
+  margin-bottom: 38px;
+  margin-right: 52px;
 }
 .mainsect_column_list_email li{
     color: #292D32;
@@ -288,10 +345,26 @@ list-style-type: none;
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
+    white-space: nowrap;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.14px;
     text-align: left;
+    margin-bottom: 48px;
+}
+.mainsect_column_list_email li:nth-child(1){
+  color: #B5B7C0;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  text-align: left;
+  margin-right: 168px;
+  list-style-type:none ;
+  margin-bottom: 38px;
 }
 .mainsect_column_list_country li{
     color: #292D32;
@@ -300,12 +373,27 @@ list-style-type: none;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
+    white-space: nowrap;
     line-height: normal;
     letter-spacing: -0.14px;
     text-align: left;
+    margin-bottom: 48px;
+}
+.mainsect_column_list_country li:nth-child(1){
+  color: #B5B7C0;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  text-align: left;
+  margin-right: 96px;
+  list-style-type:none ;
+  margin-bottom: 38px;
 }
 .mainsect_column_list_name {
-    margin-right: 57px;
     color: #B5B7C0;
 
 font-family: Poppins;
@@ -315,25 +403,203 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: -0.14px;
 }
-.mainsect_name_section {
-    color: #B5B7C0;
-
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: -0.14px;
+.mainsect_column_list_name li:nth-child(1) {
+  color: #B5B7C0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  text-align: left;
+  margin-right: 57px;
+  list-style-type:none ;
+  margin-bottom: 38px;
 }
-.mainsect_column_list_company {
+.mainsect_status_firstpoint {
+  color: #B5B7C0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style-type:none ;
+  letter-spacing: -0.14px;
+  text-align:center;
+  margin-bottom: 34px;
+}
+.mainsect_column_list_status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .mainsect_column_list_company {
     margin-right: 61px;
 }
 .mainsect_column_list_number {
     margin-right: 52px;
 }
 .mainsect_column_list_email {
-    margin-right: 168px;
+    margin-right: 38px;
 }
 .mainsect_column_list_country {
     margin-right: 96px;
+} */
+.mainsect_active_button {
+  display: flex;
+  padding: 4px 18px;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+border: 1px solid #00B087;
+color: #008767;
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.14px;
+background: rgba(22, 192, 152, 0.38);
+margin-bottom: 40px;
+}
+.mainsect_inactive_button {
+  display: flex;
+padding: 4px 12px;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+border: 1px solid #DF0404;
+background: #FFC5C5;
+color: #DF0404;
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.14px;
+margin-bottom: 40px;
+}
+.mainsect_table_navigation {
+display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+.mainsect_button_navigation {
+  color: #404B52;
+font-family: Poppins;
+font-size: 12px;
+gap: 12px;
+width: 26px;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 12px */
+letter-spacing: -0.12px;
+border-radius: 4px;
+border: 1px solid #EEE;
+background: #F5F5F5;
+}
+.mainsect_button_navigation_more {
+  background-color: transparent;
+  color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 12px */
+letter-spacing: -0.12px;
+}
+.mainsect_button_navigation_more:hover {
+border: none;
+}
+.mainsect_list_navigation_buttons {
+  display: flex;
+align-items: center;
+justify-content: center;
+gap: 12px;
+}
+.mainsect_button_navigation:hover {
+  color: #FFF;
+  background-color:#5932EA ;
+  border: 0;
+}
+.mainsect_info_page {
+  color: #B5B7C0;
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.14px;
+}
+/* Общие стили для мобильных устройств */
+@media only screen and (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    margin: 0 10px; /* Пример отступа по краям */
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 20px; /* Пример внутренних отступов */
+  }
+
+  .mainsect {
+    margin-left: 0;
+    padding-top: 20px; /* Пример внутренних отступов */
+  }
+
+  .mainsect_hello {
+    font-size: 18px; /* Пример изменения размера заголовка */
+    margin-bottom: 20px; /* Пример изменения интервала между элементами */
+  }
+
+  .mainsect_costumers {
+    font-size: 16px; /* Пример изменения размера заголовка */
+    margin-bottom: 10px; /* Пример изменения интервала между элементами */
+  }
+
+  .mainsect_members {
+    font-size: 12px; /* Пример изменения размера текста */
+    margin-bottom: 20px; /* Пример изменения интервала между элементами */
+  }
+
+  .mainsect_table {
+    padding: 20px; /* Пример внутренних отступов */
+    min-width: auto; /* Пример изменения минимальной ширины */
+  }
+
+  .mainsect_label {
+    margin-right: 10px;
+    padding: 5px; /* Пример изменения размера подписи */
+  }
+
+  .mainsect_input {
+    margin-left: 4px;
+  }
+
+  .mainsect_costumers_list {
+    flex-direction: column;
+  }
+
+  .mainsect_column_list_name li,
+  .mainsect_column_list_company li,
+  .mainsect_column_list_number li,
+  .mainsect_column_list_email li,
+  .mainsect_column_list_country li,
+  .mainsect_status_firstpoint {
+    margin-bottom: 10px; /* Пример изменения интервала между элементами списка */
+  }
+
+  .mainsect_button_navigation,
+  .mainsect_button_navigation_more {
+    font-size: 12px; /* Пример изменения размера кнопок навигации */
+  }
 }
