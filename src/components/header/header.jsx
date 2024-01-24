@@ -69,7 +69,7 @@ export const Header = () => {
                       stroke-linejoin="round"
                     />
                   </svg>
-                  Dashboard
+                <p>Dashboard</p>
                 </div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ export const Header = () => {
                       fill="#9197B3"
                     />
                   </svg>
-                  Product
+                 <p>Product</p>
                 </div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +160,7 @@ export const Header = () => {
                       fill="#9197B3"
                     />
                   </svg>
-                  Customers
+                  <p>Customers</p>
                 </div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +225,7 @@ export const Header = () => {
                       stroke-linejoin="round"
                     />
                   </svg>
-                  Income
+                 <p>Income</p>
                 </div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -271,7 +271,7 @@ export const Header = () => {
                       fill="#9197B3"
                     />
                   </svg>
-                  Promote
+                 <p>Promote</p>
                 </div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -313,7 +313,7 @@ export const Header = () => {
                       fill="#9197B3"
                     />
                   </svg>
-                  Help
+                 <p>Help</p>
                 </div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

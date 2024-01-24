@@ -87,6 +87,13 @@ header {
   border-radius: 8px;
   background: transparent;
   padding: 11px 8px 11px 11px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  align-items: center;
+}
+.menucont_li p {
   color: #9197b3;
   font-family: Poppins;
   font-size: 14px;
@@ -94,11 +101,7 @@ header {
   font-weight: 500;
   line-height: normal;
   letter-spacing: -0.14px;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  width: 250px;
-  align-items: center;
+  margin: 0;
 }
 .menucont_buttons {
   stroke: #9197b3;
@@ -110,7 +113,9 @@ header {
 .menucont_li:hover {
   background-color: #5932ea;
   cursor: pointer;
-  color: #fff;
+}
+.menucont_li:hover p{
+color: #fff;
 }
 .menucont_li:hover .menucont_icons path {
   stroke: #fff;
@@ -545,61 +550,248 @@ letter-spacing: -0.14px;
     max-width: 100%;
     margin: 0 10px; /* Пример отступа по краям */
   }
-
-  .sidebar {
-    width: 100%;
-    padding: 20px; /* Пример внутренних отступов */
+.menucont_li p {
+  display: none;
+}
+.menucont_buttons {
+  display: none;
+}
+.menucont_li {
+  width: auto;
+  padding: 11px;
+}
+.sidebar_logo {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.logo_name {
+  font-size: 14px;
+  line-height: 14px;
+}
+.sidebar {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sidebar_profile {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.profile_wrap_name {
+  margin: 0;
+}
+.profile_name {
+color: #000;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.1px;
+}
+  .profile_work {
+    color: #757575;
+font-family: Poppins;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.08px;
   }
-
-  .mainsect {
-    margin-left: 0;
-    padding-top: 20px; /* Пример внутренних отступов */
-  }
-
   .mainsect_hello {
-    font-size: 18px; /* Пример изменения размера заголовка */
-    margin-bottom: 20px; /* Пример изменения интервала между элементами */
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
   }
-
-  .mainsect_costumers {
-    font-size: 16px; /* Пример изменения размера заголовка */
-    margin-bottom: 10px; /* Пример изменения интервала между элементами */
-  }
-
-  .mainsect_members {
-    font-size: 12px; /* Пример изменения размера текста */
-    margin-bottom: 20px; /* Пример изменения интервала между элементами */
-  }
-
   .mainsect_table {
-    padding: 20px; /* Пример внутренних отступов */
-    min-width: auto; /* Пример изменения минимальной ширины */
+    padding: 0;
+    min-width: 500px;
+  }
+  .mainsect_costumers {
+color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.14px;
+  }
+  .mainsect_members{
+    color: #16C098;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.1px;
+  }
+  .mainsect_costumers_list{
+    padding: 0;
+  }
+  .mainsect {
+    padding-top: 16px;
+    margin-left: 6px;
+  }
+  .mainsect_column_list_company li {
+    color: #292D32;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 14px;
+letter-spacing: -0.1px;
+  }
+  .mainsect_column_list_company li:nth-child(1) {
+    color: #B5B7C0;
+
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    margin-right: 27px;
+    margin-bottom: 16px;
+  }
+  .mainsect_column_list_name li {
+    color: #292D32;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+margin-bottom: 14px;
+line-height: normal;
+letter-spacing: -0.1px;
+  }  .mainsect_column_list_name li:nth-child(1) {
+    color: #B5B7C0;
+
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    margin-right: 27px;
+    margin-bottom: 16px;
+  }
+
+  .mainsect_column_list_number li {
+    color: #292D32;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 14px;
+letter-spacing: -0.1px;
+  }  
+  .mainsect_column_list_number li:nth-child(1) {
+    color: #B5B7C0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    margin-right: 27px;
+    margin-bottom: 16px;
+  }
+  .mainsect_column_list_email li {
+    color: #292D32;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 14px;
+letter-spacing: -0.1px;
+  }
+  .mainsect_column_list_email li:nth-child(1) {
+    color: #B5B7C0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    margin-right: 32px;
+    margin-bottom: 16px;
   }
 
   .mainsect_label {
-    margin-right: 10px;
-    padding: 5px; /* Пример изменения размера подписи */
+    margin: 0;
   }
-
   .mainsect_input {
-    margin-left: 4px;
+    width: 50%;
   }
-
-  .mainsect_costumers_list {
-    flex-direction: column;
+  .mainsect_column_list_country li {
+    color: #292D32;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.1px;
+margin-bottom: 14px;
   }
-
-  .mainsect_column_list_name li,
-  .mainsect_column_list_company li,
-  .mainsect_column_list_number li,
-  .mainsect_column_list_email li,
-  .mainsect_column_list_country li,
-  .mainsect_status_firstpoint {
-    margin-bottom: 10px; /* Пример изменения интервала между элементами списка */
+  .mainsect_column_list_country li:nth-child(1) {
+    color: #B5B7C0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    margin-right: 27px;
+    margin-bottom: 16px;
   }
-
-  .mainsect_button_navigation,
-  .mainsect_button_navigation_more {
-    font-size: 12px; /* Пример изменения размера кнопок навигации */
+  .mainsect_column_list_status li:nth-child(1) {
+    color: #B5B7C0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    margin-bottom: 16px;
+  }
+  .mainsect_active_button {
+    color: #008767;
+padding: 0px 11px;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: -0.1px;
+margin-bottom: 14px;
+width: 50%;
+  }
+  .mainsect_inactive_button {
+    color: #DF0404;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: -0.1px;
+margin-bottom: 14px;
+width: 50%;
+padding: 0px 11px;
+  }
+  .mainsect_info_page {
+    font-size: 10px;
+  }
+  .mainsect_list_navigation_buttons {
+    gap: 8px;
+  }
+  .mainsect_searchline {
+ margin-bottom: 20px;
   }
 }
